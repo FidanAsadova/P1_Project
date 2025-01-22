@@ -70,4 +70,68 @@ body {
 
 body {
   font-family: Poppins;
+}
+
+#COURSES {
+  padding: 100px 0px;
+}
+#COURSES .container .coursesSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
+}
+#COURSES .container .coursesSection .coursesSectionTop h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+#COURSES .container .coursesSection .coursesSectionBottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+#COURSES .container .coursesSection .coursesSectionBottom .coursesCards .coursesCardImage img {
+  width: 360px;
+}
+#COURSES .container .coursesSection .coursesSectionBottom .coursesCards .coursesCardInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-start;
+  padding: 30px;
+}
+#COURSES .container .coursesSection .coursesSectionBottom .coursesCards .coursesCardInfo .coursesCardBody h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+#COURSES .container .coursesSection .coursesSectionBottom .coursesCards .coursesCardInfo .coursesCardBody .coursesTeacherInfo a span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #b8b8b8;
+}
+#COURSES .container .coursesSection .coursesSectionBottom .coursesCards .coursesCardInfo .coursesCardBody .coursesTeacherInfo a span:hover {
+  color: blue;
+}
+#COURSES .container .coursesSection .coursesSectionBottom .coursesCards .coursesCardInfo .coursesCardBody .coursesTeacherInfo span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #b8b8b8;
+}
+#COURSES .container .coursesSection .coursesSectionBottom .coursesCards .coursesCardInfo .coursesCardBody p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+#COURSES .container .coursesSection .coursesSectionBottom .coursesCards .coursesCardInfo .coursesCardFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  width: 100%;
+  justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */
