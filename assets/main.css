@@ -84,12 +84,37 @@ body {
   width: 100%;
   justify-content: space-between;
 }
+#FLAGS .flagsSection .previusImg i {
+  color: rgba(0, 0, 0, 0.3);
+  transition: all 0.5s;
+  font-size: 12px;
+}
+#FLAGS .flagsSection .previusImg i:hover {
+  transition: all 0.5s;
+  font-weight: bolder;
+  cursor: pointer;
+  color: black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+#FLAGS .flagsSection .nextImg i {
+  color: rgba(0, 0, 0, 0.3);
+  transition: all 0.5s;
+  font-size: 12px;
+}
+#FLAGS .flagsSection .nextImg i:hover {
+  transition: all 0.5s;
+  font-weight: bolder;
+  cursor: pointer;
+  color: black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
 #FLAGS .flagsSection .flagsContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   row-gap: 15px;
   transition: all 1s;
+  cursor: pointer;
 }
 #FLAGS .flagsSection .flagsContainer .countryFlag {
   width: 50px;
