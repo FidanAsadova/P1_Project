@@ -1,0 +1,39 @@
+#FLAGS {
+  padding: 60px 0px;
+  .flagsSection {
+    @include flexBox();
+    width: 100%;
+    justify-content: space-between;
+    .flagsContainer {
+      @include flexBoxColumn();
+      row-gap: 15px;
+      transition: all 1s;
+      .countryFlag {
+        width: 50px;
+        transition: all 1s;
+        img{
+            transition: all 1s;
+        }
+      }
+      .countryLang {
+          transition: all 1s;
+        span {
+          text-align: center;
+          font-size: 12px;
+          font-weight: 600;
+          color: rgba(0, 0, 0, 0.5);
+        }
+      }
+      &:hover img {
+        transform: translateY(-14px);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+          rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        transition: all 1s;
+      }
+      &:hover .countryLang span {
+        color: black;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+      }
+    }
+  }
+}
