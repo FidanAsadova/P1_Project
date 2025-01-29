@@ -72,6 +72,64 @@ body {
   font-family: Poppins;
 }
 
+#navbar {
+  display: flex;
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+}
+#navbar .container {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  align-items: center;
+  justify-content: space-between;
+}
+#navbar .container span {
+  font-family: "Poppins", serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #2e21df;
+}
+#navbar .container nav {
+  display: flex;
+}
+#navbar .container nav ul {
+  display: flex;
+  gap: 30px;
+}
+#navbar .container nav ul li {
+  display: flex;
+}
+#navbar .container nav ul li a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2a343b;
+}
+#navbar .container nav ul li a:hover {
+  color: black;
+}
+#navbar .container .icons {
+  display: flex;
+  gap: 40px;
+}
+
+#firstsec .container1 {
+  display: flex;
+  height: 100vh;
+  background-image: url("https://preview.colorlib.com/theme/lingua/images/index_background.jpg");
+  background-size: cover;
+}
+#firstsec .container1 h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #000000;
+}
+#firstsec .container1 button {
+  color: white;
+  background-color: #2e21e0;
+}
+
 #FLAGS {
   padding: 60px 0px;
 }
