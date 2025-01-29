@@ -70,4 +70,138 @@ body {
 
 body {
   font-family: Poppins;
+}
+
+#FLAGS {
+  padding: 60px 0px;
+}
+#FLAGS .flagsSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  width: 100%;
+  justify-content: space-between;
+}
+#FLAGS .flagsSection .previusImg i {
+  color: rgba(0, 0, 0, 0.3);
+  transition: all 0.5s;
+  font-size: 12px;
+}
+#FLAGS .flagsSection .previusImg i:hover {
+  transition: all 0.5s;
+  font-weight: bolder;
+  cursor: pointer;
+  color: black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+#FLAGS .flagsSection .nextImg i {
+  color: rgba(0, 0, 0, 0.3);
+  transition: all 0.5s;
+  font-size: 12px;
+}
+#FLAGS .flagsSection .nextImg i:hover {
+  transition: all 0.5s;
+  font-weight: bolder;
+  cursor: pointer;
+  color: black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+#FLAGS .flagsSection .flagsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 15px;
+  transition: all 1s;
+  cursor: pointer;
+}
+#FLAGS .flagsSection .flagsContainer .countryFlag {
+  width: 50px;
+  transition: all 1s;
+}
+#FLAGS .flagsSection .flagsContainer .countryFlag img {
+  transition: all 1s;
+}
+#FLAGS .flagsSection .flagsContainer .countryLang {
+  transition: all 1s;
+}
+#FLAGS .flagsSection .flagsContainer .countryLang span {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+}
+#FLAGS .flagsSection .flagsContainer:hover img {
+  transform: translateY(-14px);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transition: all 1s;
+}
+#FLAGS .flagsSection .flagsContainer:hover .countryLang span {
+  color: black;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+#COURSES {
+  padding: 100px 0px;
+}
+#COURSES .container .coursesSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
+}
+#COURSES .container .coursesSection .coursesSectionTop h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+#COURSES .container .coursesSection .coursesSectionBottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+#COURSES .container .coursesSection .coursesSectionBottom .coursesCards .coursesCardImage img {
+  width: 360px;
+}
+#COURSES .container .coursesSection .coursesSectionBottom .coursesCards .coursesCardInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-start;
+  padding: 30px;
+}
+#COURSES .container .coursesSection .coursesSectionBottom .coursesCards .coursesCardInfo .coursesCardBody h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+#COURSES .container .coursesSection .coursesSectionBottom .coursesCards .coursesCardInfo .coursesCardBody .coursesTeacherInfo a span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #b8b8b8;
+}
+#COURSES .container .coursesSection .coursesSectionBottom .coursesCards .coursesCardInfo .coursesCardBody .coursesTeacherInfo a span:hover {
+  color: blue;
+}
+#COURSES .container .coursesSection .coursesSectionBottom .coursesCards .coursesCardInfo .coursesCardBody .coursesTeacherInfo span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #b8b8b8;
+}
+#COURSES .container .coursesSection .coursesSectionBottom .coursesCards .coursesCardInfo .coursesCardBody p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+#COURSES .container .coursesSection .coursesSectionBottom .coursesCards .coursesCardInfo .coursesCardFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  width: 100%;
+  justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */

@@ -1,3 +1,65 @@
 #COURSES{
-    
+    padding: 100px 0px;
+    .container{
+        .coursesSection{
+            @include flexBoxColumn();
+            row-gap: 40px;
+            .coursesSectionTop{
+                h1{
+                    font-size: 30px;
+                    font-weight: 700;
+                }
+            }
+            .coursesSectionBottom{
+                @include flexBox();
+                column-gap: 40px;
+                .coursesCards{
+                    .coursesCardImage{
+                        img{
+                            width:  360px;
+                        }
+                    }
+                    .coursesCardInfo{
+                        @include flexBoxColumn();
+                        align-items: flex-start;
+                        padding: 30px;
+                        .coursesCardBody{
+                            h3{
+                                font-size: 20px;
+                                font-weight: 700;
+                            }
+                            .coursesTeacherInfo{
+                                a{
+                                    span{
+                                        font-size: 14px;
+                                        font-weight: 500;
+                                        color: #b8b8b8;
+                                        &:hover{
+                                            color: blue;
+                                        }
+                                    }
+                                }
+                                span{
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    color: #b8b8b8;
+                                }
+                            }
+                            p{
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 1.7;
+                            }
+                        }
+                        .coursesCardFooter{
+                            @include flexBox();
+                            width: 100%;
+                            justify-content: space-between;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
 }
