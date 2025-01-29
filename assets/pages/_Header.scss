@@ -1,0 +1,62 @@
+#navbar{
+    display: flex;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;     
+
+    .container{
+        display: flex;
+        height: 80px;
+        width: 100%;
+        background-color: white;
+        align-items: center;
+        justify-content: space-between;
+        
+
+
+        span{
+            font-family: 'Poppins', serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: #2e21df;
+
+        }
+        
+        nav{
+            display: flex;
+            
+            ul{
+                display: flex;
+                gap: 30px;
+
+                li{
+                    display: flex;
+                    
+                    a{     
+                        font-size: 14px;
+                        font-weight: 600;
+                        color: #2a343b;
+
+                        &:hover{
+                            color: black;
+                        }
+
+
+                    }
+                }
+            }
+        }
+
+        .icons{
+            display: flex;
+            gap: 40px;
+
+            // .search{
+
+            // }
+
+            // .profile{
+
+            // }
+        }
+    }
+}
